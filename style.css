@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #1b1b1b;
+    color: whitesmoke;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+li {
+    margin: 10px;
+}
