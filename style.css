@@ -1,6 +1,11 @@
 body{
     text-align: center;
-    font-family: 'MinecraftiaRegular';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul {
@@ -9,7 +14,7 @@ ul {
     background-color: #1b1b1b;
     color: #dbdbdb;
     padding: 15px;
-    width: 600px;
+    width: 500px;
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -26,4 +31,26 @@ h3{
 
 h5{
     font-style: italic;
+}
+
+a{
+    color: #dbdbdb;
+}
+
+.everything{
+    background-color: #36393e;
+    color: #dbdbdb;
+    padding: 15px;
+    width: 600px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-size: cover;
+    display: inline-block;
+}
+
+hr{
+    background-color: #1b1b1b;
+    border: none;
+    height: 2px;
 }
