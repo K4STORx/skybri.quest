@@ -1,18 +1,29 @@
 body{
     text-align: center;
+    font-family: 'MinecraftiaRegular';
 }
 
 ul {
+    font-family: 'Courier New', Courier, monospace;
     list-style-type: none;
     background-color: #1b1b1b;
-    color: whitesmoke;
+    color: #dbdbdb;
     padding: 15px;
-    width: 500px;
+    width: 600px;
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
+    background-size: cover;
+    display: inline-block;
 }
 
 li {
-    margin: 10px;
+}
+
+h3{
+
+}
+
+h5{
+    font-style: italic;
 }
